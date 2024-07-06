@@ -13,8 +13,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <title>Minimalist Portfolio</title>
-    <link rel="stylesheet" href="css/manage.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/manage.css">
     <link rel="stylesheet" href="css/normalize.css">
 </head>
 
@@ -43,6 +43,10 @@
                         </li>
                     </ul>
                 </nav>
+                
+                <a class="site-nav__open" href="#">
+                    <img class="site-nav__open-img" src="image/Group.svg" alt="button for open menu">
+                </a>
             </div>
         </div>
     </div>
@@ -119,11 +123,16 @@
                         </div>
                     </div>
                     <div class="swapper-left swapper-right">
-                        <div class="swapper-left__text">
+                        <div class="swapper-top__icon">
+                            <a href="bookmark.html" class="swapper-top__icon-tirn">
+                                <img class="swapper-left__icon-turn" src="image/right.svg" alt="right icons image" width="8" height="16">
+                            </a>
+                        </div>
+                        <div class="swapper-left__text swapper-right__text">
                             <h3 class="swapper-left__text-heading">Bookmark</h3>
                             <p class="swapper-left__text-paragraph">Next Project</p>
                         </div>
-                        <div class="swapper-left__icon">
+                        <div class="swapper-right__icon">
                             <a href="bookmark.html">
                                 <img class="swapper-left__icon-turn" src="image/right.svg" alt="right icons image" width="8" height="16">
                             </a>
@@ -208,6 +217,8 @@
         </div>
 
     </footer>
+
+    <script src="js/main.js"></script>
 </body>
 
 </html>

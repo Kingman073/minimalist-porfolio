@@ -89,9 +89,8 @@
 .contact-form__input {
     background-color: var(--grayish-dark-blue-border);
     outline: none;
-    border: none;
+    border: 1px solid transparent;
     padding: 1.5rem 1.6rem;
-    margin-bottom: 2.4rem;
 }
 
 .contact-form__input::placeholder {
@@ -107,20 +106,45 @@
     width: 100%;
     background-color: var(--grayish-dark-blue-border);
     outline: none;
-    border: none;
+    border: 1px solid transparent;
     padding: 1.5rem 1.6rem;
     margin-bottom: 2.4rem;
 
 }
-
+.contact-form__error{
+    display: none;
+    color: var(--red);
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.2rem;
+    letter-spacing: 0rem;
+    margin-top: 0.5rem;
+}
 .contact-form__field::placeholder {
     font-size: 1.3rem;
     letter-spacing: 0rem;
     opacity: 0.4;
 }
-
+.contact-field{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2.4rem;
+}
 /* INPIT VALID AND INVALID */
+.contact-form__input:not(:focus):not(:placeholder-shown):invalid,
+.contact-form__field:not(:focus):not(:placeholder-shown):invalid {
+    border: 1px solid;
+    border-color: var(--red);
+}
+.contact-form__input:not(:focus):not(:placeholder-shown):valid,
+.contact-form__field:not(:focus):not(:placeholder-shown):valid  {
+    border: 1px solid;
+    border-color: var(--slightly-cyan);
+}
 
+.contact-form__input:not(:focus):not(:placeholder-shown):invalid~.contact-form__error {
+    display: block;
+}
 
 @media only screen and (max-width: 675px) {
     .getintoch {

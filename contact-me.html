@@ -120,18 +120,22 @@
                         <h1 class="contact-text-heading">Contact Me</h1>
                     </div>
                     <form action="https://echo.htmlacademy.ru" method="post" class="contact-form">
-                        <label class="contact-form__lable" for="contact-name">Name</label>
-                        <input class="contact-form__input" type="text" id="contact-name" name="contact-name" required
-                            placeholder="Jane Appleseed">
 
+                        <div class="contact-field">
+                            <label class="contact-form__lable" for="contact-name">Name</label>
+                            <input class="contact-form__input" type="text" id="contact-name" name="contact-name"
+                                required placeholder="Jane Appleseed">
+                        </div>
 
-                        <label class="contact-form__lable" for="contact-email">Email Address</label>
-                        <input class="contact-form__input" type="email" id="contact-email" name="contact-email" required
-                            placeholder="email@example.com">
-
+                        <div class="contact-field">
+                            <label class="contact-form__lable" for="contact-email">Email Address</label>
+                            <input class="contact-form__input" type="email" id="contact-email" name="contact-email"
+                                required placeholder="email@example.com">
+                            <div class="contact-form__error">This field is required</div>
+                        </div>
 
                         <label class="contact-form__lable" for="contact-message">Message</label>
-                        <textarea class="contact-form__field" name="Message" id="contact-message" name="contact-message"
+                        <textarea class="contact-form__field" name="message" id="contact-message" name="contact-message"
                             required placeholder="How can I help?"></textarea>
 
                         <div class="contact-form__btn">

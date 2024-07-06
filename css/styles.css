@@ -8,6 +8,7 @@
     --red: rgb(244, 48, 48);
     --ibara-fonts: "Ibarra Real Nova", serif;
     --public-fonts: "Public Sans", serif;
+    --white: rgb(255, 255, 255);
 }
 
 * {
@@ -31,12 +32,15 @@ body {
     background-color: var(--light-grey-bg);
     font-family: var(--public-fonts);   
     color: var(--grayish-dark-blue);
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 3rem;
     /* overflow-x: hidden; */
 }
 
 /* CONTAINER */
 .container {
-    max-width: 115rem;
+    max-width: 114rem;
     width: 100%;
     margin: 0 auto;
     padding: 0 2rem;
@@ -61,3 +65,97 @@ body {
 .main-content {
     flex-grow: 1;
 }
+
+/* BUTTON */
+.site-info__btn {
+    display: inline-flex;
+    align-items: center;
+    background-color: var(--dark-blue);
+    cursor: pointer;
+}
+.site-info__btn-icon {
+    padding: 0.9rem 1.6rem;
+    display: block;
+    background-color: rgb(0, 0, 0,0.1);
+}
+
+.site-info__btn-link {
+    padding: 0.9rem 3.8rem;
+    display: block;
+}
+
+.site-info__btn-link span{
+    display: inline-block;
+    color: var(--white);
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    letter-spacing: 0.2rem;
+    text-align: center;
+}
+
+/* SITE-Header */
+
+/* .site-header {
+
+} */
+.site-header__container {
+    padding: 6.4rem 2rem 15rem;
+}
+.site-nav {
+    display: flex;
+    align-items: center;
+    padding-bottom: 5.4rem;
+}
+.site-nav__logo {
+    margin-right: auto;
+}
+.site-nav__logo-img{
+    display: block;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    gap: 4.3rem;
+}
+
+.nav-container__items-link {
+    color: var(--grayish-dark-blue);
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    letter-spacing: 0.2rem;
+}
+.nav-container__items-link-open{
+    color: var(--slightly-cyan);
+}
+/* SITE_Info */
+.site-info {
+    position: relative;
+    width: 100%;
+    height: 60rem;
+    background-image: url(../image/bitmap.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.site-info__container {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: var(--light-grey-bg);
+    max-width: 44.5rem;
+    width: 100%;
+    padding: 5.6rem 0 0;
+}
+.site-info__container-heading {
+    margin: 0;
+    color: var(--grayish-dark-blue);
+    font-family: var(--ibara-fonts);
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 5rem;
+    letter-spacing: -0.04rem;
+    margin-bottom: 5.3rem;
+}
+

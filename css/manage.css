@@ -9,11 +9,11 @@
     --light-grey-bg: rgb(250, 250, 250);
     --light-grey-text: rgb(234, 234, 235);
     --red: rgb(244, 48, 48);
-    --ibara-fonts: "Public Sans", serif;
+    --ibara-fonts: "Ibarra Real Nova", serif;
     --public-fonts: "Public Sans", serif;
     --white: rgb(255, 255, 255);
 }
-/* SITE-Nav */
+  /* SITE-Nav */
 #site-nav{
     padding-bottom: 2rem;
 }
@@ -71,6 +71,7 @@
     width: 100%;
 }
 .project-container__info-heading {
+    font-family: var(--ibara-fonts);
     font-size: 3.2rem;
     line-height: 4.2rem;
     letter-spacing: -0.03rem;
@@ -86,6 +87,7 @@
     width: 100%;
 }
 .project-container__image-heading {
+    font-family: var(--ibara-fonts);
     font-size: 3.2rem;
     line-height: 4.2rem;
     margin-bottom: 2.8rem;  

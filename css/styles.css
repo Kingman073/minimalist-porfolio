@@ -121,11 +121,8 @@ body {
 }
 /* SITE-Header */
 
-/* .site-header {
-
-} */
 .site-header__container {
-    padding: 6.4rem 2rem 15rem;
+    padding: 6.4rem 2rem 7.5rem;
 }
 
 .site-nav {
@@ -205,6 +202,7 @@ body {
 /* ABOUT ME */
 
 .about {
+    padding-top: 7.5rem;
     padding-bottom: 15rem;
 }
 

@@ -1,0 +1,11 @@
+<svg width="61.000000" height="32.000000" viewBox="0 0 61 32" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs/>
+	<mask id="mask_0_2054" fill="white">
+		<path id="Combined Shape" d="M31.3469 26.1224L15.6736 0L0 26.1224L31.3469 26.1224ZM60.0815 5.87756L44.4082 32L28.7346 5.87756L60.0815 5.87756Z" clip-rule="evenodd" fill="" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</mask>
+	<path id="Combined Shape" d="M31.3469 26.1224L15.6736 0L0 26.1224L31.3469 26.1224ZM60.0815 5.87756L44.4082 32L28.7346 5.87756L60.0815 5.87756Z" clip-rule="evenodd" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd" mask="url(#mask_0_2054)"/>
+	<path id="Combined Shape" d="" fill="#979797" fill-opacity="0.000000" fill-rule="nonzero"/>
+</svg>

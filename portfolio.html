@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <title>Minimalist Portfolio</title>
+    <link rel="stylesheet" href="css/portfolio.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/normalize.css">
 </head>
@@ -23,7 +24,7 @@
         <div class="site-header__container container">
 
             <!-- SITE-Nav -->
-            <div class="site-nav">
+            <div class="site-nav" id="site-nav">
                 <a href="index.html" class="site-nav__logo">
                     <img src="image/logo-dark.svg" alt="minimalist porfolio logo" class="site-nav__logo-img">
                 </a>
@@ -34,7 +35,8 @@
                             <a href="index.html" class="nav-container__items-link">HOME</a>
                         </li>
                         <li class="nav-container__items">
-                            <a href="portfolio.html" class="nav-container__items-link nav-container__items-link-open">PORTFOLIO</a>
+                            <a href="portfolio.html"
+                                class="nav-container__items-link nav-container__items-link-open">PORTFOLIO</a>
                         </li>
                         <li class="nav-container__items">
                             <a href="#" class="nav-container__items-link">CONTACT ME</a>
@@ -48,21 +50,111 @@
     <!-- MAIN -->
     <main class="main-content">
         <!-- SITE-Manage -->
-        <section>
+        <section class="section-manage">
             <div class="container">
                 <div class="manage">
                     <div class="manage-image">
-                        <img class="manage-image__content" src="image/manage-preview-desktop.png" srcset="image/manage-preview-desktop.png 1x ,image/manage-preview-desktop@2x.png 2x" alt="manage-preview-desktop image">
+                        <img class="manage-image__content" width="540" height="500"
+                            src="image/manage-preview-desktop.png"
+                            srcset="image/manage-preview-desktop.png 1x ,image/manage-preview-desktop@2x.png 2x"
+                            alt="manage-preview-desktop image">
                     </div>
                     <div class="manage-info">
                         <h2 class="manage-info__headeing">Manage</h2>
-                        <p class="manage-info__paragraph">This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the testimonial slider.</p>
+                        <p class="manage-info__paragraph">This project required me to build a fully responsive landing
+                            page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas
+                            that required interactivity, such as the testimonial slider.</p>
                         <div class="manage-info__btn">
                             <a href="#" class="button">VIEW PROJECT</a>
                         </div>
                     </div>
                 </div>
             </div>
+        </section>
+
+
+        <!-- SITE-Bookmark -->
+        <section class="section-manage">
+            <div class="container">
+                <div class="bookmark manage">
+                    <div class="manage-info">
+                        <h2 class="manage-info__headeing">Bookmark</h2>
+                        <p class="manage-info__paragraph">This project required me to build a fully responsive landing
+                            page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas
+                            that required interactivity, such as the features section.</p>
+                        <div class="manage-info__btn">
+                            <a href="#" class="button">VIEW PROJECT</a>
+                        </div>
+                    </div>
+                    <div class="manage-image">
+                        <img class="manage-image__content" width="540" height="500"
+                            src="image/bookmark-preview-desktop.png"
+                            srcset="image/bookmark-preview-desktop.png 1x , image/bookmark-preview-desktop@2x.png 2x"
+                            alt="manage-preview-desktop image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SITE-Insure -->
+        <section class="section-manage">
+            <div class="container">
+                <div class="manage">
+                    <div class="manage-image">
+                        <img class="manage-image__content" width="540" height="500"
+                            src="image/insure-preview-desktop.jpeg" srcset="image/insure-preview-desktop.jpeg 1x ,
+                            image/insure-preview-desktop@2x.jpeg 2x" alt="insure-preview-desktop image">
+                    </div>
+                    <div class="manage-info">
+                        <h2 class="manage-info__headeing">Insure</h2>
+                        <p class="manage-info__paragraph">This was a small project which mostly consisted of HTML and
+                            CSS. I built a fully-responsive landing page. The only JavaScript this project required was
+                            to enable the toggling of the mobile navigation.</p>
+                        <div class="manage-info__btn">
+                            <a href="#" class="button">VIEW PROJECT</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SITE-Fylo -->
+        <section class="section-manage">
+            <div class="container">
+                <div class="fylo manage">
+                    <div class="manage-info">
+                        <h2 class="manage-info__headeing">Fylo</h2>
+                        <p class="manage-info__paragraph">This project was built in pure HTML and CSS. I had mobile and
+                            desktop designs to work to and built it so that it was fully-responsive. I took a
+                            mobile-first approach and used modern CSS like Flexbox and Grid for layout purposes.</p>
+                        <div class="manage-info__btn">
+                            <a href="#" class="button">VIEW PROJECT</a>
+                        </div>
+                    </div>
+                    <div class="manage-image">
+                        <img class="manage-image__content" width="540" height="500"
+                            src="image/fylo-preview-desktop.jpeg"
+                            srcset="image/fylo-preview-desktop.jpeg 1x,image/fylo-preview-desktop@2x.jpeg 2x"
+                            alt="manage-preview-desktop image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SITE-CTA -->
+        <section class="cta">
+            <div class="container">
+                <div class="cta-container">
+                    <div class="cta-container__text">
+                        <h2 class="cta-container__text-heading">Interested in doing a project together?</h2>
+                    </div>
+                    <div class="cta-container__line"></div>
+                    <div class="cta-container__btn">
+                        <a href="#" class="button">CONTACT ME</a>
+                    </div>
+                </div>
+            </div>
+
         </section>
     </main>
 

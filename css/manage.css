@@ -42,8 +42,9 @@
 .project-info {
     max-width: 35rem;
     width: 100%;
-    padding-top: 4.8rem;
+    padding: 4.8rem 0;
     border-top: 1px solid var(--grayish-dark-blue-border);
+    border-bottom: 1px solid var(--grayish-dark-blue-border);
 }
 
 .project-info__heading {

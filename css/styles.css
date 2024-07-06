@@ -150,7 +150,18 @@ body {
     text-transform: uppercase;
     background-color: var(--grayish-dark-blue);
 }
-
+.button-dark {
+    color: var(--light-grey-bg);
+    line-height: -0.1rem;
+    text-transform: uppercase;
+    background-color: var(--grayish-dark-blue);
+}
+.button-dark:hover{
+    color: var(--grayish-dark-blue);
+    line-height: -0.1rem;
+    text-transform: uppercase;
+    background-color: var(--white);
+}
 .button:active {
     opacity: 0.7;
 }

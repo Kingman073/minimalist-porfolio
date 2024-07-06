@@ -58,9 +58,9 @@
 }
 /* SITE-Bookmark */
 .bookmark{
-    justify-content: flex-end;
+    flex-direction: row-reverse;
 }
 /* SITE-Fylo */
 .fylo{
-    justify-content: flex-end;
+    flex-direction: row-reverse;
 }

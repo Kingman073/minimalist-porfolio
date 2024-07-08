@@ -152,6 +152,7 @@ body {
     background-color: var(--grayish-dark-blue);
 }
 .button-dark {
+    cursor: pointer;
     color: var(--light-grey-bg);
     line-height: -0.1rem;
     text-transform: uppercase;
@@ -376,7 +377,12 @@ body {
     letter-spacing: 0.2rem;
     text-align: left;
 }
-
+.footer-nav__list-item-link:hover{
+    color: var(--slightly-cyan);
+}
+.footer-nav__list-item-link:active{
+    opacity: 0.6;
+}
 .footer-link {
     display: flex;
     align-items: center;
@@ -389,6 +395,7 @@ body {
 }
 
 .footer-link__items-icons-icon:hover {
+    color: var(--slightly-cyan);
     opacity: 0.8;
 }
 

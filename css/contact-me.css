@@ -54,7 +54,9 @@
 .getintoch-link__items-icons-icon {
     color: var(--grayish-dark-blue);
 }
-
+.getintoch-link__items-icons-icon:hover {
+    color: var(--slightly-cyan-hover);
+}
 /* SITE-Contact ME */
 .contact {
     display: flex;

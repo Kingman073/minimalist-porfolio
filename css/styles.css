@@ -129,6 +129,7 @@ body {
 }
 
 .site-info__btn:hover {
+    color: var(--white);
     background-color: var(--slightly-cyan);
 }
 
